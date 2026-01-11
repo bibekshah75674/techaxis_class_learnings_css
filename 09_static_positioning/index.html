@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Positioning</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: blueviolet;
+            border: 2px solid green;
+            text-align: center;
+            padding-top: 40px;
+            position: static;
+            top: 20px; /*won't apply because position is static*/
+        }
+    </style>
+</head>
+<body>
+    <div class="box">static-box</div>
+</body>
+</html>

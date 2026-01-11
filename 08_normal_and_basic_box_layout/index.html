@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Normal Box layout(default:content box) */
+        .normal-box{
+            width: 200px;
+            height: 100px;
+            border: 2px solid blue;
+            padding: 10px;
+            margin: 20px;
+            box-sizing: content-box; /* default */
+            background-color: lightblue;
+        }
+        .basic-box{
+            width: 200px;
+            height: 100px;
+            border: 2px solid green;
+            padding: 10px;
+            margin: 20px;
+            box-sizing: border-box; /* includes padding+border */
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+<body>
+    <h2>Normal Box Layout(Content-box)</h2>
+    <div class="normal-box">This is Normal Box Layout.</div>
+
+    <h2>Basic Box Layout(Border-box)</h2>
+    <div class="basic-box">This is Basic Box Layout.</div>
+</body>
+</html>
