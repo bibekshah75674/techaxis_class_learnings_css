@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .parent{
+            display: flex;
+            align-items: center;
+            padding:0px 100px;
+            gap: 30px;
+            height: 100vh;
+            background-color: aquamarine;
+        }
+        img{
+            width: 100vh;
+        }
+        .burger{
+            position: relative;
+            animation: burger 2s ease-in-out infinite alternate;
+        }
+        @keyframes burger{
+            from{
+                top: -10px;
+            }
+            to{
+                top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="parent">
+            <!-- left -->
+            <div>
+                <h1>Welcome to CSS Animation</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit, facere? Cumque nostrum, officiis blanditiis eos quidem fugit, beatae dolore corporis et voluptate dolores aut saepe facere, veniam ipsam iusto porro.
+                Numquam debitis tempora laboriosam at nam consequatur quia et corrupti dolorum provident, perferendis odio ab commodi, autem facere? Laborum inventore alias cum accusamus? At illo possimus ducimus, architecto ab iure?</p>
+                <button>Button</button>
+            </div>
+
+            <!-- right -->
+            <div>
+                <img class="burger" src="/18_burger_webpage_css/pngtree-delicious-meat-burger-image-png-image_17410912.png" alt="burger">
+            </div>
+        </div>
+    </section>
+</body>
+</html>

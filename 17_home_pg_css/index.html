@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            color: white;            
+            background-image: url("https://images.pexels.com/photos/1749303/pexels-photo-1749303.jpeg?cs=srgb&dl=pexels-picturemechaniq-1749303.jpg&fm=jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .main{
+            flex: 1;      
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .form{
+            display: flex;
+            flex-direction: column;
+            margin: 10px;
+        }
+        .child-div{
+            border: 2px solid black;
+            width: 450px;
+            /* height: 400px; */
+            border-radius: 16px;
+            backdrop-filter: blur(8px);
+
+        }
+        .line{
+            border: 1px solid white;
+            margin: 20px;
+        }
+        .p1{
+            display: flex;
+            justify-content: space-between;
+        }
+        .button{
+            width: 400px;
+            height: 40px;
+            border-radius: 16px;
+            border: 2px solid white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            color: black;
+            margin: 10px;
+        }
+        .c1{
+            display: flex;
+            justify-content: center;
+        }
+        .form input{
+            padding: 10px;
+        }
+        .parent-nav{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            border: 2px solid white;
+            height: 60px;
+            padding: 10px ;
+            backdrop-filter: blur(2px);
+            
+        }
+        .coffee_logo{
+            width: 40px;
+            height: 40px;
+        }
+        .nav-bar{
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+        .nav-bar a{
+            color: white;
+            text-decoration: none;
+        }
+        .login_btn{
+            padding: 10px 20px;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+        }
+        
+        
+
+    </style>
+</head>
+
+<body>
+    <!-- nav bar -->
+    <div class="parent-nav">
+        <!-- left -->
+        <div>
+            <img src="https://i.pinimg.com/736x/39/3b/b1/393bb1bb15940aea508dd07c5da23917.jpg" alt="logo" class="coffee_logo">
+        </div> 
+
+        <!-- right -->
+        <div>
+            <nav class="nav-bar">
+                <a href="/home">Home</a>
+                <a href="/about">About</a>
+                <a href="/service">Service</a>
+                <a href="/contact">Contact</a>
+                <button class="login_btn">Login</button>
+            </nav>
+        </div>
+    </div> 
+
+
+
+    <div class="main">
+        <div class="child-div">
+            <h1 style="text-align: center;">Login</h1>
+            <form class="form">
+                <label for="email">Email</label>
+                <input type="email" placeholder="Email">
+                
+                <label for="password">Password</label>
+                <input type="password" placeholder="Password">
+
+                <div class="line"></div>
+                
+                <div class="p1">
+                <div id="flex-item1">
+                    <input type="checkbox" name="" value="" id="rem_me">
+                    <label for="rem_me">Remember me</label> 
+                </div>
+                <div id="flex-item2">
+                    <a href="#" style="color: white;">Forgot password?</a>
+                </div>
+                </div>
+
+                <div class="button">
+                    <div>
+                    Login
+                    </div>
+                </div>
+
+                <div class="c1">
+                    <div>
+                        <p>Don't have an account?<strong>Register</strong></p>
+                    </div>
+                </div>
+            </form>
+
+
+        </div>
+    </div>
+</body>
+
+</html>
