@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;  */
+    background-image: url("https://media.istockphoto.com/id/1021380426/photo/sunset-in-serra-da-beleza-mountains-between-rio-de-janeiro-and-minas-gerais-states.jpg?s=2048x2048&w=is&k=20&c=3s5PEfwpeF7ImgAoVeIIv0Vkul7Vq2PwxmbFEWQ8fV4=");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+
+    
+}
+.div{
+    display: flex;
+    justify-content: space-between;
+}
+.div a{
+    text-decoration: none;
+    color: white;
+}
+
+.line{
+    border: 1px solid white;
+}
+
+.p1{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 10px 40px;
+}
+.parent{
+    width: 400px;
+    height: 350px;
+    color: white;
+    backdrop-filter: blur(4px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+}
+.login_btn{
+    padding: 10px 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+input{
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+input::placeholder {
+  color: white;
+}
+
+.main{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px;
+    backdrop-filter: blur(4px);
+    height: 20vh;
+}
+
+.nav-links{
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
