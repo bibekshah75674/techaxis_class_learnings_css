@@ -37,8 +37,8 @@ body {
 }
 
 .dv2 img{
-    width: 420px;
-    height: 500px;
+    width: 528px;
+    height: 557px;
 }
 
 .main{
@@ -64,7 +64,8 @@ body {
 .dv3{
     padding: 40px;
     width: 650px;
-    height: 650px;
+    max-height: 650px;
+    margin-top: -200px;
 }
 
 .contact-form{
@@ -98,9 +99,10 @@ input,textarea{
 .submit-btn{
     color: white;
     background-color: black;
-    padding: 20px 250px;
+    width: 100%;
+    padding: 14px;
     border-radius: 8px;
-    font-size: 20px;
+    font-size: 16px;
     cursor: pointer;
 }
 
