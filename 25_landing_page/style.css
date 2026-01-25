@@ -135,9 +135,8 @@ body {
 .dv6{
     display: flex;
     justify-content: space-between;
-    padding: 20px 30px;
+    padding: 10px 30px;
     background-color: #F7F7F7;
-    height: 200px;
     align-items: center;
     margin: 60px 0px;
 }
