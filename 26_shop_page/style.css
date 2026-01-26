@@ -25,12 +25,12 @@ body {
 
 .min-nav a{
     text-decoration: none;
-    color: #FFFFFF;
+    color: black;
 }
 
 .btn{
     color: white;
-    background-color: #d7dbd9;
+    background-color: black;
     padding: 10px 20px;
     border-radius: 8px;
 }
@@ -38,6 +38,7 @@ body {
 .site-name{
     font-size: 20px;
     font-weight: 500;
+    color: black;
 }
 
 .header{
@@ -59,7 +60,7 @@ body {
 }
 
 .intro h1,p{
-    color: #FFFFFF;
+    color: black;
 }
 
 .intro button{
